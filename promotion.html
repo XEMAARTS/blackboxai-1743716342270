@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Promotion | Xema Arts Media</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .platform-icon {
+            transition: transform 0.3s ease;
+        }
+        .platform-icon:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header will be loaded dynamically -->
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center py-32" style="background-image: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-6 relative z-10 text-white text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Music Promotion</h1>
+            <p class="text-xl">Get your music heard across all major platforms</p>
+        </div>
+    </section>
+
+    <!-- Service Details -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8">Amplify Your Reach</h2>
+                <p class="text-lg text-gray-700 mb-8">
+                    In today's crowded music landscape, having great music isn't enough. Our strategic promotion services 
+                    help you cut through the noise and connect with your ideal audience across all major platforms.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-12 mb-16">
+                    <!-- Promotion Services -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Promotion Services</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="bg-purple-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-headphones text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Playlist Placements</h4>
+                                    <p class="text-gray-600">Get your music on influential Spotify and Apple Music playlists</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-purple-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-share-alt text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Social Media Campaigns</h4>
+                                    <p class="text-gray-600">Targeted ads and influencer partnerships</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-purple-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-globe text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Multi-Platform Distribution</h4>
+                                    <p class="text-gray-600">Release your music everywhere at once</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Platforms -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Platforms We Cover</h3>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="text-center p-4">
+                                <div class="platform-icon text-4xl text-purple-600 mb-2">
+                                    <i class="fab fa-spotify"></i>
+                                </div>
+                                <p class="font-medium">Spotify</p>
+                            </div>
+                            <div class="text-center p-4">
+                                <div class="platform-icon text-4xl text-purple-600 mb-2">
+                                    <i class="fab fa-apple"></i>
+                                </div>
+                                <p class="font-medium">Apple Music</p>
+                            </div>
+                            <div class="text-center p-4">
+                                <div class="platform-icon text-4xl text-purple-600 mb-2">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                                <p class="font-medium">YouTube</p>
+                            </div>
+                            <div class="text-center p-4">
+                                <div class="platform-icon text-4xl text-purple-600 mb-2">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <p class="font-medium">Instagram</p>
+                            </div>
+                            <div class="text-center p-4">
+                                <div class="platform-icon text-4xl text-purple-600 mb-2">
+                                    <i class="fab fa-tiktok"></i>
+                                </div>
+                                <p class="font-medium">TikTok</p>
+                            </div>
+                            <div class="text-center p-4">
+                                <div class="platform-icon text-4xl text-purple-600 mb-2">
+                                    <i class="fab fa-soundcloud"></i>
+                                </div>
+                                <p class="font-medium">SoundCloud</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Stories -->
+                <div class="mb-16 bg-purple-50 rounded-lg p-8">
+                    <h3 class="text-2xl font-bold mb-6">Success Stories</h3>
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <div class="flex items-start">
+                                <div class="text-purple-600 text-2xl mr-4">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Indie Artist Goes Viral</h4>
+                                    <p class="text-gray-600">Our TikTok campaign helped an independent artist gain 500k streams in one month</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <div class="flex items-start">
+                                <div class="text-purple-600 text-2xl mr-4">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Playlist Domination</h4>
+                                    <p class="text-gray-600">Strategic placements increased a client's monthly listeners by 300%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold mb-4">Ready to Grow Your Audience?</h3>
+                    <p class="text-lg text-gray-700 mb-6">Contact us to discuss your promotion strategy</p>
+                    <a href="contact.html" class="inline-block bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-medium transition duration-300">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer will be loaded dynamically -->
+    <div id="footer"></div>
+
+    <script>
+        // Load header and footer
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('header').innerHTML = data);
+        
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+</body>
+</html>
